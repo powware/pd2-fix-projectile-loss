@@ -1,11 +1,11 @@
 {
 	"blt_version": 2,
 	"name": "Fix Projectile Loss",
-	"description": "",
+	"description": "Fixes the loss of projectiles such as grenades and rockets for clients when hosting.",
 	"author": "powware",
 	"contact": "https://github.com/powware",
 	"version": "1",
-	"color": "0 0.5 0.5",
+	"color": "0.5 0.5 0",
 	"updates": [
 		{
 			"identifier": "FixProjectileLoss",
