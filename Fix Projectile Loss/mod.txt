@@ -1,0 +1,23 @@
+{
+	"blt_version": 2,
+	"name": "Fix Projectile Loss",
+	"description": "",
+	"author": "powware",
+	"contact": "https://github.com/powware",
+	"version": "1",
+	"color": "0 0.5 0.5",
+	"updates": [
+		{
+			"identifier": "FixProjectileLoss",
+			"host": {
+				"meta": "https://github.com/powware/pd2-fix-projectile-loss/releases/download/refs%2Fheads%2Fmaster/meta.json"
+			}
+		}
+	],
+	"hooks": [
+		{
+			"hook_id": "lib/units/weapons/projectiles/projectilebase",
+			"script_path": "projectilebase.lua"
+		}
+	]
+}
